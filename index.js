@@ -24,3 +24,7 @@ console.log("first letter is " + Character);
 if(Character === "T") {
     console.log("You will be rich!")
 }
+
+const regex = /[i]/g;
+const found = myName.match(regex);
+console.log("You will fall in love this week!");
