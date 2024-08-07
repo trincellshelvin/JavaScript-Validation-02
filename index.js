@@ -1,5 +1,3 @@
-// Name contains an 'i': "will fall in love this week"
-
 let myName;
 myName = "Trin";
 let lengthOfName = myName.length;
