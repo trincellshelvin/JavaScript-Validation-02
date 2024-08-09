@@ -50,7 +50,9 @@ function tellaFortune(myName){
     
     let m = willFallInLove(myName);
     if(m){
-        console.log("You will meet a mysterious stranger before the week is over.");
+        console.log(`${myName}You will meet a mysterious stranger before the week is over.`);
+    }else{
+        console.log(`${myName} you will not meet a mysterious stranger before the week is over`);
     }
     
     let o = willMarryEarly(myName);
