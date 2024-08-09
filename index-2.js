@@ -67,7 +67,7 @@ function tellaFortune(myName){
         console.log(`${myName} you will not be rich`)
     }
 
-    let q =onceInALifeTime(myName);
+    let q = onceInALifeTime(myName);
     if(q){
         console.log(`${myName} you will encounter a once-in-a-lifetime opportunity`)
     }else{
